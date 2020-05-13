@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: muli, sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21c08b;
+}
+
+.header_icono {
+    width: 175px;
+    height: inherit;
+    margin-left: 15px;
+}
+
+.login {
+    background: linear-gradient( #21c08b, #ab88ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.login_container {
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 60px 68px 40px;
+    width: 300px;
+    min-height: 600px;
+}
+
+.login_container-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid white;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    height: 45px;
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-family: muli;
+    font-size: 16px;
+}
+
+.login_container label {
+    font-size: 14px;
+}
+
+.login_container-rememberme {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login_container-rememberme a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.login_container-rememberme a:hover {
+    text-decoration: underline;
+}
+
+.login_container-social-media>div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login_container-social-media>div>img {
+    margin-right: 10px;
+}
+
+.login_container-register {
+    font-size: 14px;
+}
+
+.login_container-register a {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login_container-register a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #ab88ff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-left: 20px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
