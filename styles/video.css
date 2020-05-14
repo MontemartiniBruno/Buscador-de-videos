@@ -90,7 +90,7 @@ ul:hover {
 
 .carousel {
     width: 100%;
-    overflow: scroll;
+    overflow: hidden;
     padding: 30px;
     position: relative;
 }
@@ -151,4 +151,26 @@ ul:hover {
 .play {
     width: 30px;
     height: 30px;
+}
+
+.categories_title {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #8f57fd;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-left: 20px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
