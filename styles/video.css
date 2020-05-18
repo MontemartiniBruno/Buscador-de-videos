@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background-color: #8f57fd;
     color: whitesmoke;
     font-family: 'Muli', sans-serif;
 }
 
 header {
+    background-color: #8f57fd;
     margin: 0;
     width: 100%;
     height: 75px;
@@ -60,6 +60,7 @@ ul:hover {
 }
 
 .main {
+    background-color: #8f57fd;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,6 +90,7 @@ ul:hover {
 }
 
 .carousel {
+    background: linear-gradient(#8f57fd, #06d6a0);
     width: 100%;
     overflow: hidden;
     padding: 30px;
@@ -158,7 +160,7 @@ ul:hover {
 }
 
 .footer {
-    background-color: #8f57fd;
+    background-color: #06d6a0;
     height: 50px;
     display: flex;
     align-items: center;
